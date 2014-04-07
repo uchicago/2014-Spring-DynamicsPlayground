@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37988D6C18F3114600021373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6B18F3114600021373 /* Foundation.framework */; };
+		37988D6E18F3114600021373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6D18F3114600021373 /* CoreGraphics.framework */; };
+		37988D7018F3114600021373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6F18F3114600021373 /* UIKit.framework */; };
+		37988D7618F3114600021373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37988D7418F3114600021373 /* InfoPlist.strings */; };
+		37988D7818F3114600021373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D7718F3114600021373 /* main.m */; };
+		37988D7C18F3114600021373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D7B18F3114600021373 /* AppDelegate.m */; };
+		37988D7F18F3114600021373 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D7E18F3114600021373 /* RootViewController.m */; };
+		37988D8218F3114600021373 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D8118F3114600021373 /* DataViewController.m */; };
+		37988D8518F3114600021373 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D8418F3114600021373 /* ModelController.m */; };
+		37988D8818F3114600021373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37988D8618F3114600021373 /* Main.storyboard */; };
+		37988D8A18F3114600021373 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37988D8918F3114600021373 /* Images.xcassets */; };
+		37988D9118F3114600021373 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D9018F3114600021373 /* XCTest.framework */; };
+		37988D9218F3114600021373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6B18F3114600021373 /* Foundation.framework */; };
+		37988D9318F3114600021373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6F18F3114600021373 /* UIKit.framework */; };
+		37988D9B18F3114600021373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37988D9918F3114600021373 /* InfoPlist.strings */; };
+		37988D9D18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D9C18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37988D9418F3114600021373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37988D6018F3114600021373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37988D6718F3114600021373;
+			remoteInfo = "2014-Spring-DynamicsPlayground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37988D6818F3114600021373 /* 2014-Spring-DynamicsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2014-Spring-DynamicsPlayground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37988D6B18F3114600021373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37988D6D18F3114600021373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37988D6F18F3114600021373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37988D7318F3114600021373 /* 2014-Spring-DynamicsPlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-Spring-DynamicsPlayground-Info.plist"; sourceTree = "<group>"; };
+		37988D7518F3114600021373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37988D7718F3114600021373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37988D7918F3114600021373 /* 2014-Spring-DynamicsPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2014-Spring-DynamicsPlayground-Prefix.pch"; sourceTree = "<group>"; };
+		37988D7A18F3114600021373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37988D7B18F3114600021373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37988D7D18F3114600021373 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		37988D7E18F3114600021373 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		37988D8018F3114600021373 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		37988D8118F3114600021373 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		37988D8318F3114600021373 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		37988D8418F3114600021373 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		37988D8718F3114600021373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37988D8918F3114600021373 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37988D8F18F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2014-Spring-DynamicsPlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37988D9018F3114600021373 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37988D9818F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-Spring-DynamicsPlaygroundTests-Info.plist"; sourceTree = "<group>"; };
+		37988D9A18F3114600021373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37988D9C18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _014_Spring_DynamicsPlaygroundTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37988D6518F3114600021373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37988D6E18F3114600021373 /* CoreGraphics.framework in Frameworks */,
+				37988D7018F3114600021373 /* UIKit.framework in Frameworks */,
+				37988D6C18F3114600021373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37988D8C18F3114600021373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37988D9118F3114600021373 /* XCTest.framework in Frameworks */,
+				37988D9318F3114600021373 /* UIKit.framework in Frameworks */,
+				37988D9218F3114600021373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37988D5F18F3114600021373 = {
+			isa = PBXGroup;
+			children = (
+				37988D7118F3114600021373 /* 2014-Spring-DynamicsPlayground */,
+				37988D9618F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests */,
+				37988D6A18F3114600021373 /* Frameworks */,
+				37988D6918F3114600021373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37988D6918F3114600021373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37988D6818F3114600021373 /* 2014-Spring-DynamicsPlayground.app */,
+				37988D8F18F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37988D6A18F3114600021373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37988D6B18F3114600021373 /* Foundation.framework */,
+				37988D6D18F3114600021373 /* CoreGraphics.framework */,
+				37988D6F18F3114600021373 /* UIKit.framework */,
+				37988D9018F3114600021373 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37988D7118F3114600021373 /* 2014-Spring-DynamicsPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				37988D7A18F3114600021373 /* AppDelegate.h */,
+				37988D7B18F3114600021373 /* AppDelegate.m */,
+				37988D7D18F3114600021373 /* RootViewController.h */,
+				37988D7E18F3114600021373 /* RootViewController.m */,
+				37988D8018F3114600021373 /* DataViewController.h */,
+				37988D8118F3114600021373 /* DataViewController.m */,
+				37988D8318F3114600021373 /* ModelController.h */,
+				37988D8418F3114600021373 /* ModelController.m */,
+				37988D8618F3114600021373 /* Main.storyboard */,
+				37988D8918F3114600021373 /* Images.xcassets */,
+				37988D7218F3114600021373 /* Supporting Files */,
+			);
+			path = "2014-Spring-DynamicsPlayground";
+			sourceTree = "<group>";
+		};
+		37988D7218F3114600021373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37988D7318F3114600021373 /* 2014-Spring-DynamicsPlayground-Info.plist */,
+				37988D7418F3114600021373 /* InfoPlist.strings */,
+				37988D7718F3114600021373 /* main.m */,
+				37988D7918F3114600021373 /* 2014-Spring-DynamicsPlayground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37988D9618F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				37988D9C18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m */,
+				37988D9718F3114600021373 /* Supporting Files */,
+			);
+			path = "2014-Spring-DynamicsPlaygroundTests";
+			sourceTree = "<group>";
+		};
+		37988D9718F3114600021373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37988D9818F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests-Info.plist */,
+				37988D9918F3114600021373 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37988D6718F3114600021373 /* 2014-Spring-DynamicsPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37988DA018F3114600021373 /* Build configuration list for PBXNativeTarget "2014-Spring-DynamicsPlayground" */;
+			buildPhases = (
+				37988D6418F3114600021373 /* Sources */,
+				37988D6518F3114600021373 /* Frameworks */,
+				37988D6618F3114600021373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2014-Spring-DynamicsPlayground";
+			productName = "2014-Spring-DynamicsPlayground";
+			productReference = 37988D6818F3114600021373 /* 2014-Spring-DynamicsPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37988D8E18F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37988DA318F3114600021373 /* Build configuration list for PBXNativeTarget "2014-Spring-DynamicsPlaygroundTests" */;
+			buildPhases = (
+				37988D8B18F3114600021373 /* Sources */,
+				37988D8C18F3114600021373 /* Frameworks */,
+				37988D8D18F3114600021373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37988D9518F3114600021373 /* PBXTargetDependency */,
+			);
+			name = "2014-Spring-DynamicsPlaygroundTests";
+			productName = "2014-Spring-DynamicsPlaygroundTests";
+			productReference = 37988D8F18F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37988D6018F3114600021373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "T. Andrew Binkowski";
+				TargetAttributes = {
+					37988D8E18F3114600021373 = {
+						TestTargetID = 37988D6718F3114600021373;
+					};
+				};
+			};
+			buildConfigurationList = 37988D6318F3114600021373 /* Build configuration list for PBXProject "2014-Spring-DynamicsPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37988D5F18F3114600021373;
+			productRefGroup = 37988D6918F3114600021373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37988D6718F3114600021373 /* 2014-Spring-DynamicsPlayground */,
+				37988D8E18F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37988D6618F3114600021373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37988D8A18F3114600021373 /* Images.xcassets in Resources */,
+				37988D7618F3114600021373 /* InfoPlist.strings in Resources */,
+				37988D8818F3114600021373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37988D8D18F3114600021373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37988D9B18F3114600021373 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37988D6418F3114600021373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37988D8218F3114600021373 /* DataViewController.m in Sources */,
+				37988D7C18F3114600021373 /* AppDelegate.m in Sources */,
+				37988D8518F3114600021373 /* ModelController.m in Sources */,
+				37988D7818F3114600021373 /* main.m in Sources */,
+				37988D7F18F3114600021373 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37988D8B18F3114600021373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37988D9D18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37988D9518F3114600021373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37988D6718F3114600021373 /* 2014-Spring-DynamicsPlayground */;
+			targetProxy = 37988D9418F3114600021373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37988D7418F3114600021373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37988D7518F3114600021373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37988D8618F3114600021373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37988D8718F3114600021373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37988D9918F3114600021373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37988D9A18F3114600021373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37988D9E18F3114600021373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37988D9F18F3114600021373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37988DA118F3114600021373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2014-Spring-DynamicsPlayground/2014-Spring-DynamicsPlayground-Prefix.pch";
+				INFOPLIST_FILE = "2014-Spring-DynamicsPlayground/2014-Spring-DynamicsPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37988DA218F3114600021373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2014-Spring-DynamicsPlayground/2014-Spring-DynamicsPlayground-Prefix.pch";
+				INFOPLIST_FILE = "2014-Spring-DynamicsPlayground/2014-Spring-DynamicsPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37988DA418F3114600021373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2014-Spring-DynamicsPlayground.app/2014-Spring-DynamicsPlayground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2014-Spring-DynamicsPlayground/2014-Spring-DynamicsPlayground-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2014-Spring-DynamicsPlaygroundTests/2014-Spring-DynamicsPlaygroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		37988DA518F3114600021373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2014-Spring-DynamicsPlayground.app/2014-Spring-DynamicsPlayground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2014-Spring-DynamicsPlayground/2014-Spring-DynamicsPlayground-Prefix.pch";
+				INFOPLIST_FILE = "2014-Spring-DynamicsPlaygroundTests/2014-Spring-DynamicsPlaygroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37988D6318F3114600021373 /* Build configuration list for PBXProject "2014-Spring-DynamicsPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37988D9E18F3114600021373 /* Debug */,
+				37988D9F18F3114600021373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37988DA018F3114600021373 /* Build configuration list for PBXNativeTarget "2014-Spring-DynamicsPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37988DA118F3114600021373 /* Debug */,
+				37988DA218F3114600021373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37988DA318F3114600021373 /* Build configuration list for PBXNativeTarget "2014-Spring-DynamicsPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37988DA418F3114600021373 /* Debug */,
+				37988DA518F3114600021373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37988D6018F3114600021373 /* Project object */;
+}
