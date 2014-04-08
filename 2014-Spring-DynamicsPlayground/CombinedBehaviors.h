@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  CombinedBehaviors.h
 //  2014-Spring-DynamicsPlayground
 //
 //  Created by T. Andrew Binkowski on 4/7/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController <UIPageViewControllerDelegate>
-
-@property (strong, nonatomic) UIPageViewController *pageViewController;
-
+@interface CombinedBehaviors : UIDynamicBehavior
+-(instancetype)initWithItems:(NSArray *)items;
 @end

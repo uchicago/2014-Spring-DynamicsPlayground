@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3752E1FE18F3325C00DDF982 /* CombinedBehaviors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752E1FD18F3325C00DDF982 /* CombinedBehaviors.m */; };
+		3752E20118F3409800DDF982 /* DotsAndSquaresViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752E20018F3409800DDF982 /* DotsAndSquaresViewViewController.m */; };
+		3752E20318F340DA00DDF982 /* Tink.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3752E20218F340DA00DDF982 /* Tink.aiff */; };
 		37988D6C18F3114600021373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6B18F3114600021373 /* Foundation.framework */; };
 		37988D6E18F3114600021373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6D18F3114600021373 /* CoreGraphics.framework */; };
 		37988D7018F3114600021373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6F18F3114600021373 /* UIKit.framework */; };
 		37988D7618F3114600021373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37988D7418F3114600021373 /* InfoPlist.strings */; };
 		37988D7818F3114600021373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D7718F3114600021373 /* main.m */; };
 		37988D7C18F3114600021373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D7B18F3114600021373 /* AppDelegate.m */; };
-		37988D7F18F3114600021373 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D7E18F3114600021373 /* RootViewController.m */; };
-		37988D8218F3114600021373 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D8118F3114600021373 /* DataViewController.m */; };
-		37988D8518F3114600021373 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D8418F3114600021373 /* ModelController.m */; };
 		37988D8818F3114600021373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37988D8618F3114600021373 /* Main.storyboard */; };
 		37988D8A18F3114600021373 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37988D8918F3114600021373 /* Images.xcassets */; };
 		37988D9118F3114600021373 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D9018F3114600021373 /* XCTest.framework */; };
@@ -23,6 +23,8 @@
 		37988D9318F3114600021373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37988D6F18F3114600021373 /* UIKit.framework */; };
 		37988D9B18F3114600021373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37988D9918F3114600021373 /* InfoPlist.strings */; };
 		37988D9D18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988D9C18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m */; };
+		37988DA818F3120900021373 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988DA718F3120900021373 /* AlertViewController.m */; };
+		37988DAD18F3136700021373 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37988DAC18F3136700021373 /* AlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3752E1FC18F3325C00DDF982 /* CombinedBehaviors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinedBehaviors.h; sourceTree = "<group>"; };
+		3752E1FD18F3325C00DDF982 /* CombinedBehaviors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinedBehaviors.m; sourceTree = "<group>"; };
+		3752E1FF18F3409800DDF982 /* DotsAndSquaresViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotsAndSquaresViewViewController.h; sourceTree = "<group>"; };
+		3752E20018F3409800DDF982 /* DotsAndSquaresViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotsAndSquaresViewViewController.m; sourceTree = "<group>"; };
+		3752E20218F340DA00DDF982 /* Tink.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Tink.aiff; sourceTree = "<group>"; };
 		37988D6818F3114600021373 /* 2014-Spring-DynamicsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2014-Spring-DynamicsPlayground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37988D6B18F3114600021373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37988D6D18F3114600021373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,12 +53,6 @@
 		37988D7918F3114600021373 /* 2014-Spring-DynamicsPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2014-Spring-DynamicsPlayground-Prefix.pch"; sourceTree = "<group>"; };
 		37988D7A18F3114600021373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37988D7B18F3114600021373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37988D7D18F3114600021373 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		37988D7E18F3114600021373 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		37988D8018F3114600021373 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		37988D8118F3114600021373 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		37988D8318F3114600021373 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		37988D8418F3114600021373 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		37988D8718F3114600021373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37988D8918F3114600021373 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37988D8F18F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2014-Spring-DynamicsPlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +60,10 @@
 		37988D9818F3114600021373 /* 2014-Spring-DynamicsPlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2014-Spring-DynamicsPlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		37988D9A18F3114600021373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37988D9C18F3114600021373 /* _014_Spring_DynamicsPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _014_Spring_DynamicsPlaygroundTests.m; sourceTree = "<group>"; };
+		37988DA618F3120900021373 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		37988DA718F3120900021373 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		37988DAB18F3136700021373 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		37988DAC18F3136700021373 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +125,15 @@
 			children = (
 				37988D7A18F3114600021373 /* AppDelegate.h */,
 				37988D7B18F3114600021373 /* AppDelegate.m */,
-				37988D7D18F3114600021373 /* RootViewController.h */,
-				37988D7E18F3114600021373 /* RootViewController.m */,
-				37988D8018F3114600021373 /* DataViewController.h */,
-				37988D8118F3114600021373 /* DataViewController.m */,
-				37988D8318F3114600021373 /* ModelController.h */,
-				37988D8418F3114600021373 /* ModelController.m */,
 				37988D8618F3114600021373 /* Main.storyboard */,
+				3752E1FF18F3409800DDF982 /* DotsAndSquaresViewViewController.h */,
+				3752E20018F3409800DDF982 /* DotsAndSquaresViewViewController.m */,
+				37988DA618F3120900021373 /* AlertViewController.h */,
+				37988DAB18F3136700021373 /* AlertView.h */,
+				37988DAC18F3136700021373 /* AlertView.m */,
+				3752E1FC18F3325C00DDF982 /* CombinedBehaviors.h */,
+				3752E1FD18F3325C00DDF982 /* CombinedBehaviors.m */,
+				37988DA718F3120900021373 /* AlertViewController.m */,
 				37988D8918F3114600021373 /* Images.xcassets */,
 				37988D7218F3114600021373 /* Supporting Files */,
 			);
@@ -136,6 +143,7 @@
 		37988D7218F3114600021373 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3752E20218F340DA00DDF982 /* Tink.aiff */,
 				37988D7318F3114600021373 /* 2014-Spring-DynamicsPlayground-Info.plist */,
 				37988D7418F3114600021373 /* InfoPlist.strings */,
 				37988D7718F3114600021373 /* main.m */,
@@ -241,6 +249,7 @@
 				37988D8A18F3114600021373 /* Images.xcassets in Resources */,
 				37988D7618F3114600021373 /* InfoPlist.strings in Resources */,
 				37988D8818F3114600021373 /* Main.storyboard in Resources */,
+				3752E20318F340DA00DDF982 /* Tink.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37988D8218F3114600021373 /* DataViewController.m in Sources */,
 				37988D7C18F3114600021373 /* AppDelegate.m in Sources */,
-				37988D8518F3114600021373 /* ModelController.m in Sources */,
+				3752E1FE18F3325C00DDF982 /* CombinedBehaviors.m in Sources */,
+				3752E20118F3409800DDF982 /* DotsAndSquaresViewViewController.m in Sources */,
+				37988DAD18F3136700021373 /* AlertView.m in Sources */,
 				37988D7818F3114600021373 /* main.m in Sources */,
-				37988D7F18F3114600021373 /* RootViewController.m in Sources */,
+				37988DA818F3120900021373 /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +478,7 @@
 				37988DA218F3114600021373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37988DA318F3114600021373 /* Build configuration list for PBXNativeTarget "2014-Spring-DynamicsPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +487,7 @@
 				37988DA518F3114600021373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
